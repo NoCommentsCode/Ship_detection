@@ -118,7 +118,7 @@ def cnn_predict(model, image_file):
     img_arr = img_arr.reshape((1, image_size, image_size, 3))
     
     result = model.predict(img_arr)
-    return result
+    return np.argmax(result)
 
 
 model = cnn_model()
