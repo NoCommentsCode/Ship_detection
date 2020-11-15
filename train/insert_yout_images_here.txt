@@ -1,0 +1,1 @@
+Images should be 768x768 pix. RGB
